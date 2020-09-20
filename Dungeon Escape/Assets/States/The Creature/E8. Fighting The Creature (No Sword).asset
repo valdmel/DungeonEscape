@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3754f01044e4b849905b376d051bedd, type: 3}
+  m_Name: E8. Fighting The Creature (No Sword)
+  m_EditorClassIdentifier: 
+  storyText: 'The fat thing try to hit me with its huge cleaver, but I have slided
+    through its legs. Though it missed the attack, the creature is turning around!
+
+    I
+    notice a pointy medium bone on the ground... This might come in handy.
+
+
+    What
+    should I do?
+
+
+    1. Pierce the bone on the creature''s leg.'
+  nextStates:
+  - {fileID: 11400000, guid: 6a1b11d9597cdc546887ce878252bf3b, type: 2}

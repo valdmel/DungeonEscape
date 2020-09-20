@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3754f01044e4b849905b376d051bedd, type: 3}
+  m_Name: D5. Right Door (Sword)
+  m_EditorClassIdentifier: 
+  storyText: 'As the door finally opens, I can''t believe what I''m staring at...
+    Bodies. Dead human bodies are laying on the floor. Some are dismembered and part
+    of their flesh have been eaten off. Right in front of me there is this big furnace,
+    probably used to cook these poor souls... The stench of rotten flesh mixed with
+    burning coal has plagued entire room.
+
+    "What in God''s name is happening
+    in here?!" - I say loudly. Suddenly, loud footsteps can be heard coming from
+    the corridor I was in before, followed by that strange growl I have been hearing
+    all this time. I''m not alone in this place!!!
+
+
+    What should I do?
+
+
+    1.
+    Hide within the dead bodies.'
+  nextStates:
+  - {fileID: 11400000, guid: ae720eba3cd5ae34bab3904d7752f278, type: 2}

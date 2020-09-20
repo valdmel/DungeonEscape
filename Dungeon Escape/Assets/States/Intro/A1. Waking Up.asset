@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3754f01044e4b849905b376d051bedd, type: 3}
+  m_Name: A1. Waking Up
+  m_EditorClassIdentifier: 
+  storyText: 'I wake up in the middle of a dark cell and I can''t remember what happened.
+    My weapons are gone and I feel a cold breeze going down my spine. I look around
+    and see some dirty rags on the ground covered with what seems to be dried blood
+    and a small metal bucket with a strange liquid in it.
+
+    To my left, there
+    are a few cockroaches eating a rotten piece of bread left on a small plate. To
+    my right, a brick mossy wall with a few cracks on it. At my back, it is possible
+    to see a small cell window that projects a few rays of light over the cold and
+    dark ground. It is a full moon night. Right in front of me lays a cell door with
+    a small keyhole on it. From outside it, I can hear some rats squeaking from a
+    distance and dripping water from the ceiling. There doesn''t seem to be anyone
+    guarding the cell. Looks like I''m completely alone...
+
+
+    What should I do?
+
+
+    1.
+    Get up and move towards the cell door.
+
+    2. Get up and look through the cell
+    window.'
+  nextStates:
+  - {fileID: 11400000, guid: 18be1cb4a2e30054cb74c86ff9c551cf, type: 2}
+  - {fileID: 11400000, guid: 9c56a0464d5b7814988e2c75397f35ef, type: 2}

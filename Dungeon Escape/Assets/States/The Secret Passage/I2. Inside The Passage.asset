@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3754f01044e4b849905b376d051bedd, type: 3}
+  m_Name: I2. Inside The Passage
+  m_EditorClassIdentifier: 
+  storyText: 'There are some torches lit in this passage and a not-so-pleasant smell
+    of moss. I walk down the passage just to notice a path to my left and another
+    in front of me. I can hear water flow sounds coming from the left path.
+
+
+    What
+    should I do?
+
+
+    1. Keep moving foward.
+
+    2. Go to my left.'
+  nextStates:
+  - {fileID: 11400000, guid: 261ba30bbd5b4f54aa62fae94aaf8134, type: 2}
+  - {fileID: 11400000, guid: 226a16559b37c4d4c88cd08d3c84adea, type: 2}

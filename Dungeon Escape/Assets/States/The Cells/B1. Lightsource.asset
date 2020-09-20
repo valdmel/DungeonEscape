@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3754f01044e4b849905b376d051bedd, type: 3}
+  m_Name: B1. Lightsource
+  m_EditorClassIdentifier: 
+  storyText: "I decided to pick up a torch to light my way out and move foward into
+    the dark corridor. Burning torches and my own footsteps is all I can hear in
+    this place...\r  I notice a slightly open wooden door to my right and a staircase
+    in my front. \r\n\r\nWhat should I do?\r\n\r\n1. Enter the door. \r\n2. Go downstairs."
+  nextStates:
+  - {fileID: 11400000, guid: 45958d805eb98e94a9f22cebcb4f6571, type: 2}
+  - {fileID: 11400000, guid: f392744847fe2ba47b68efc967b07f03, type: 2}

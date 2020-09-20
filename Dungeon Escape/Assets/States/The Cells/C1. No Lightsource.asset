@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3754f01044e4b849905b376d051bedd, type: 3}
+  m_Name: C1. No Lightsource
+  m_EditorClassIdentifier: 
+  storyText: 'I decided move foward into the dark corridor without a light source.
+    My own footsteps is all I can hear in this place...
+
+    I can''t really tell
+    whether there is something useful inside any of these cells or not, or whether
+    someone else is alive. As I walk down the corridor, I notice a staircase right
+    in front of me. I can hear a strange noise coming from downstairs...
+
+
+    What
+    should I do?
+
+
+    1. Go downstairs.'
+  nextStates:
+  - {fileID: 11400000, guid: f392744847fe2ba47b68efc967b07f03, type: 2}

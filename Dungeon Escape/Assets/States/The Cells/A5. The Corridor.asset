@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3754f01044e4b849905b376d051bedd, type: 3}
+  m_Name: A5. The Corridor
+  m_EditorClassIdentifier: 
+  storyText: 'The cell door was unlocked the whole time. "Freedom... for now" - I
+    thought to myself - "But why is the cell unlocked?".
+
+    Right in front of me,
+    I see a large corridor with some closed cell doors. Though slightly visible due
+    to the torches on the wall, I can''t clearly see much of the path ahead of me.
+    A light source might come in handy.
+
+
+    What should I do?
+
+
+    1. Pick up
+    a torch and move foward.
+
+    2. Move foward without a light source.'
+  nextStates:
+  - {fileID: 11400000, guid: 3782331129601f643850a2c2e8d53ad4, type: 2}
+  - {fileID: 11400000, guid: 03dfd0e98ba23aa4296d1f737674fbed, type: 2}

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3754f01044e4b849905b376d051bedd, type: 3}
+  m_Name: E7. Noticed By The Creature (No Sword)
+  m_EditorClassIdentifier: 
+  storyText: 'I try to take the key, but I step in a small bone. The cracking sound
+    made the creature notice me! Its roaring and moves in my direction! Damn, this
+    thing is HUGE.
+
+    
+
+    I should act quickly!!!
+
+    
+
+    What should
+    I do?
+
+    
+
+    1. Fight it!
+
+    2. Run!'
+  nextStates:
+  - {fileID: 11400000, guid: 25769187516941c4f9bb850a2544b93e, type: 2}
+  - {fileID: 11400000, guid: 64e9566fbc9ee0743b7607dd6471b989, type: 2}
