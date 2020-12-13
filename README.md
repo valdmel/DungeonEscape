@@ -1,2 +1,2 @@
-# DungeonEscape
-My first mini-game created with Unity 2D.
+# Dungeon Escape
+My first mini-game created with Unity.
