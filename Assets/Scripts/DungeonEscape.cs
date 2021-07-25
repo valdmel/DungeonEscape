@@ -21,10 +21,7 @@ public class DungeonEscape : MonoBehaviour
         textComponent.text = state.StateStory;
     }
 
-    private void Update()
-    {
-        ChangeState();
-    }
+    private void Update() => ChangeState();
     #endregion
 
     #region CLASS METHODS
