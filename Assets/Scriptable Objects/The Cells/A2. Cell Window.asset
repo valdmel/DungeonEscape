@@ -12,22 +12,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3754f01044e4b849905b376d051bedd, type: 3}
   m_Name: A2. Cell Window
   m_EditorClassIdentifier: 
-  storyText: 'I look through the window just to notice how beautiful the night is.
-    It is windy and the sky is completely clear... It is possible to see full moon
-    stands right above me. River sounds can be heard from my left as well as owls
-    hooting from a forest north from where I am.
+  dialogue: 'A2. Cell Window
 
-    Given my view, I can''t really
-    tell in which floor I am. What have I done to deserve such punishment?
+    I look through the window just to notice how beautiful
+    the night is. It is windy and the sky is completely clear... It is possible to
+    see full moon stands right above me. River sounds can be heard from my left as
+    well as owls hooting from a forest north from where I am.
 
+    
 
-    What
-    should I do?
+    Given
+    my view, I can''t really tell in which floor I am. What have I done to deserve
+    such punishment?
 
+    
 
-    1. Move towards the cell door.
+    
+
+    
+
+    What should I do?
+
+    
+
+    1.
+    Move towards the cell door.
 
     2. Try to break the bars.'
-  nextStates:
-  - {fileID: 11400000, guid: 18be1cb4a2e30054cb74c86ff9c551cf, type: 2}
-  - {fileID: 11400000, guid: 5ca8c81b212515f49b38ac4ce3605cab, type: 2}
+  nextDialogueLine: []

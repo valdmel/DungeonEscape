@@ -488,7 +488,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -30.5492, y: -25.4578}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &678463758
 MonoBehaviour:
@@ -1115,7 +1115,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 678463758}
-  startingState: {fileID: 11400000, guid: b3679516356025d4296d1add239c0d68, type: 2}
+  startingDialogueLine: {fileID: 11400000, guid: 766401fcee7c8e743b42d3a7615ff3c4,
+    type: 2}
 --- !u!4 &2072203696
 Transform:
   m_ObjectHideFlags: 0
@@ -1173,6 +1174,54 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: ab6aa8d2-a23d-4c46-bdbf-2e9aa95caa55
     m_ActionName: Player/Commands[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2072203695}
+        m_TargetAssemblyTypeName: DungeonEscape, Assembly-CSharp
+        m_MethodName: OnMoveLeft
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: f34b15cc-6490-4a8f-9eab-54553ee7887e
+    m_ActionName: Player/MoveLeft[/Keyboard/a]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2072203695}
+        m_TargetAssemblyTypeName: DungeonEscape, Assembly-CSharp
+        m_MethodName: OnMoveSouth
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 42b021c5-5db7-44d1-8bd4-33d1c19dc0b7
+    m_ActionName: Player/MoveSouth[/Keyboard/s]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2072203695}
+        m_TargetAssemblyTypeName: DungeonEscape, Assembly-CSharp
+        m_MethodName: OnMoveRight
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: f8a4d5e8-ad01-4fb5-a564-27a1f2c1524b
+    m_ActionName: Player/MoveRight[/Keyboard/d]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player

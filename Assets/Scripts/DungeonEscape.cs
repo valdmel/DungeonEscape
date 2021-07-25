@@ -7,21 +7,18 @@ public class DungeonEscape : MonoBehaviour
     #region VARIABLES
     #region SERIALIZABLE
     [SerializeField] private Text dialogueText;
-    [SerializeField] private DialogueLine startingState;
+    [SerializeField] private DialogueLine startingDialogueLine;
     #endregion
 
-    private DialogueLine[] nextStates;
-    private DialogueLine state;
+    private DialogueLine currentDialogueLine;
     #endregion
 
     #region MONOBEHAVIOUR CALLBACK METHODS
     private void Start()
     {
-        state = startingState;
-        dialogueText.text = state.Dialogue;
+        currentDialogueLine = startingDialogueLine;
+        dialogueText.text = currentDialogueLine.Dialogue;
     }
-
-    private void Update() => ChangeState();
     #endregion
 
     #region CLASS METHODS
@@ -29,23 +26,38 @@ public class DungeonEscape : MonoBehaviour
     {
         if (inputContext.performed)
         {
-            Debug.Log("Teste");
+            currentDialogueLine = currentDialogueLine.MoveNorthDialogue;
+            DisplayDialogueLine();
         }
     }
 
-    public void ChangeState()
+    public void OnMoveLeft(InputAction.CallbackContext inputContext)
     {
-        nextStates = state.NextDialogueLine;
-
-        for (int i = 0; i < nextStates.Length; i++)
+        if (inputContext.performed)
         {
-            if (Input.GetKeyDown(KeyCode.Alpha1 + i))
-            {
-                state = nextStates[i];
-            }
+            currentDialogueLine = currentDialogueLine.MoveLeftDialogue;
+            DisplayDialogueLine();
         }
-
-        dialogueText.text = state.Dialogue;
     }
+
+    public void OnMoveSouth(InputAction.CallbackContext inputContext)
+    {
+        if (inputContext.performed)
+        {
+            currentDialogueLine = currentDialogueLine.MoveSouthDialogue;
+            DisplayDialogueLine();
+        }
+    }
+
+    public void OnMoveRight(InputAction.CallbackContext inputContext)
+    {
+        if (inputContext.performed)
+        {
+            currentDialogueLine = currentDialogueLine.MoveRightDialogue;
+            DisplayDialogueLine();
+        }
+    }
+
+    public void DisplayDialogueLine() => dialogueText.text = currentDialogueLine.Dialogue;
     #endregion
 }
