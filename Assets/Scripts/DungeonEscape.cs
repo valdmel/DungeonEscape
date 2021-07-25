@@ -4,21 +4,20 @@ using UnityEngine.UI;
 public class DungeonEscape : MonoBehaviour
 {
     #region VARIABLES
-
     #region SERIALIZABLE
-    [SerializeField] Text textComponent;
-    [SerializeField] State startingState;
+    [SerializeField] private Text dialogueText;
+    [SerializeField] private DialogueLine startingState;
     #endregion
 
-    State[] nextStates;
-    State state;
+    private DialogueLine[] nextStates;
+    private DialogueLine state;
     #endregion
 
     #region MONOBEHAVIOUR CALLBACK METHODS
     private void Start()
     {
         state = startingState;
-        textComponent.text = state.StateStory;
+        dialogueText.text = state.Dialogue;
     }
 
     private void Update() => ChangeState();
@@ -27,7 +26,7 @@ public class DungeonEscape : MonoBehaviour
     #region CLASS METHODS
     public void ChangeState()
     {
-        var nextStates = state.NextStates;
+        nextStates = state.NextDialogueLine;
 
         for (int i = 0; i < nextStates.Length; i++)
         {
@@ -37,7 +36,7 @@ public class DungeonEscape : MonoBehaviour
             }
         }
 
-        textComponent.text = state.StateStory;
+        dialogueText.text = state.Dialogue;
     }
     #endregion
 }
