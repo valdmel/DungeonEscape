@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class DungeonEscape : MonoBehaviour
@@ -24,6 +25,14 @@ public class DungeonEscape : MonoBehaviour
     #endregion
 
     #region CLASS METHODS
+    public void OnMoveNorth(InputAction.CallbackContext inputContext)
+    {
+        if (inputContext.performed)
+        {
+            Debug.Log("Teste");
+        }
+    }
+
     public void ChangeState()
     {
         nextStates = state.NextDialogueLine;
