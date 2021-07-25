@@ -1,39 +1,46 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class DungeonEscape : MonoBehaviour
 {
+    #region VARIABLES
+
+    #region SERIALIZABLE
     [SerializeField] Text textComponent;
     [SerializeField] State startingState;
+    #endregion
+
     State[] nextStates;
     State state;
+    #endregion
 
-    // Start is called before the first frame update
-    void Start()
+    #region MONOBEHAVIOUR CALLBACK METHODS
+    private void Start()
     {
         state = startingState;
-        textComponent.text = state.getStateStory();
+        textComponent.text = state.StateStory;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        changeState();
+        ChangeState();
     }
+    #endregion
 
-    public void changeState() {
-        var nextStates = state.getNextStates();
+    #region CLASS METHODS
+    public void ChangeState()
+    {
+        var nextStates = state.NextStates;
 
-        for (int i = 0; i < nextStates.Length; i++) {
-            if (Input.GetKeyDown(KeyCode.Alpha1 + i)) {
+        for (int i = 0; i < nextStates.Length; i++)
+        {
+            if (Input.GetKeyDown(KeyCode.Alpha1 + i))
+            {
                 state = nextStates[i];
             }
         }
 
-        //playStateAudio(state.getStateAudioClips()[0]);
-        textComponent.text = state.getStateStory();
+        textComponent.text = state.StateStory;
     }
+    #endregion
 }

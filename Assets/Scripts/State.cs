@@ -1,18 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [CreateAssetMenu(menuName = "State")]
 public class State : ScriptableObject
 {
-    [TextArea(10, 14)][SerializeField] public string storyText;
+    #region VARIABLES
+    #region SERIALIZABLE
+    [SerializeField, TextArea(10, 14)] private string storyText;
     [SerializeField] State[] nextStates;
+    #endregion
 
-    public string getStateStory() {
-        return storyText;
-    }
+    public string StateStory => storyText;
+    public State[] NextStates => nextStates;
+    #endregion
 
-    public State[] getNextStates() {
-        return nextStates;
-    }
 }
