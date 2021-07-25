@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b3754f01044e4b849905b376d051bedd, type: 3}
-  m_Name: A1. Waking Up
+  m_Name: A1WakingUp
   m_EditorClassIdentifier: 
   dialogue: 'I wake up in the middle of a dark cell and I can''t remember what happened.
     My weapons are gone and I feel a cold breeze going down my spine. I look around
@@ -25,17 +25,13 @@ MonoBehaviour:
     seem to be anyone guarding the cell.
 
 
-
-
-
     What should I do?
 
 
+    1. Move North
 
-    1. Get
-    up and move towards the cell door.
-
-    2. Get up and look through the cell window.'
+    2.
+    Get up and look through the cell window.'
   moveNorthDialogue: {fileID: 11400000, guid: 93287d7b4365da94f9c84f013efbbc2d, type: 2}
   moveLeftDialogue: {fileID: 11400000, guid: ebed29cc14c7f764eba7f7d41021cc25, type: 2}
   moveSouthDialogue: {fileID: 11400000, guid: b91e13432369d194a950741ee78ab396, type: 2}

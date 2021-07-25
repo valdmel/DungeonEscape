@@ -2,11 +2,11 @@
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
-public class DungeonEscape : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
     #region VARIABLES
     #region SERIALIZABLE
-    [SerializeField] private Text dialogueText;
+    [SerializeField] private Text dialogueHUD;
     [SerializeField] private DialogueLine startingDialogueLine;
     #endregion
 
@@ -17,7 +17,7 @@ public class DungeonEscape : MonoBehaviour
     private void Start()
     {
         currentDialogueLine = startingDialogueLine;
-        dialogueText.text = currentDialogueLine.Dialogue;
+        dialogueHUD.text = currentDialogueLine.Dialogue;
     }
     #endregion
 
@@ -58,6 +58,6 @@ public class DungeonEscape : MonoBehaviour
         }
     }
 
-    public void DisplayDialogueLine() => dialogueText.text = currentDialogueLine.Dialogue;
+    private void DisplayDialogueLine() => dialogueHUD.text = currentDialogueLine.Dialogue;
     #endregion
 }
