@@ -25,17 +25,17 @@ MonoBehaviour:
     be dried blood.
 
     Right behind you, you see an old bed with a straw mat on
-    it and a small metal bucket filled with a stenchful liquid.
+    it and right beside it, a small metal bucket filled with a stenchful liquid.
 
-    Right in front
-    of you there is a cell door with a small keyhole on it.
+    Right
+    in front of you there is a cell door with a small keyhole on it.
 
 
-    A cold breeze runs
-    down your spine: you realize you''re in a dungeon, alone and completely defenseless.
-    Every step you take will influence your progress within the game, so pay attention
-    and think before making any move. If you die, you die. No continues. Use WASD
-    to move around.
+    A cold
+    breeze runs down your spine: you realize you''re in a dungeon, alone and completely
+    defenseless. Every step you take will influence your progress within the game,
+    so pay attention and think before making any move. If you die, you die. No continues.
+    Use WASD to move around.
 
 
     Good luck!
@@ -44,8 +44,8 @@ MonoBehaviour:
     What do you want to do?
 
 
-    W. Move
-    North
+    W.
+    Move North
 
     A. Move Left
 
