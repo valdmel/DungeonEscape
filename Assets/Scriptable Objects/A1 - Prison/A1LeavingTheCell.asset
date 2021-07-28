@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3754f01044e4b849905b376d051bedd, type: 3}
   m_Name: A1LeavingTheCell
   m_EditorClassIdentifier: 
-  dialogue: 'You found yourself in an octogonal small room. Burning torches can be
-    seen lighting the place.
+  dialogue: 'You found yourself in an octogonal small room. Sounds of burning torches
+    can be heard as they light the place.
 
 
-    Right in front of you, an old wooden door.
+    Right in front of you, an old wooden
+    door.
 
-    To
-    your left, the torches light a corridor leading to the other cells.
+    To your left, the torches light a corridor leading to the other cells.
 
     Right
     behind you, you see the old metal door from the cell you just woke up in.

@@ -12,8 +12,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3754f01044e4b849905b376d051bedd, type: 3}
   m_Name: A1CellBloodyRags
   m_EditorClassIdentifier: 
-  dialogue: Left
-  moveNorthDialogue: {fileID: 0}
-  moveLeftDialogue: {fileID: 0}
-  moveSouthDialogue: {fileID: 0}
-  moveRightDialogue: {fileID: 0}
+  dialogue: 'You see bloodstains and rags scattered all around the floor. "Was it...
+    From the last prisoner...?" - you wonder.
+
+
+    Right in front of you, dirty
+    bloodied rags scattered on the floor. Yuck.
+
+    To your right, you see an old
+    bed with a straw mat on it and right beside it, a small metal bucket filled with
+    a stenchful liquid.
+
+    Right behind you, you see a few cockroaches eating a
+    rotten piece of bread on a small plate.
+
+    To your left, lays a cell door partially
+    rusted.
+
+
+    What do you want to do?
+
+
+    W. Can''t move forward
+
+    A. Move
+    Left
+
+    S. Move South
+
+    D. Move Right'
+  moveNorthDialogue: {fileID: 11400000}
+  moveLeftDialogue: {fileID: 11400000, guid: 93287d7b4365da94f9c84f013efbbc2d, type: 2}
+  moveSouthDialogue: {fileID: 11400000, guid: aac1425ff73c36846aabeed781349ced, type: 2}
+  moveRightDialogue: {fileID: 11400000, guid: c1b5c14c489506246990e90067e54dd6, type: 2}

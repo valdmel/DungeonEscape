@@ -12,36 +12,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3754f01044e4b849905b376d051bedd, type: 3}
   m_Name: A1BackAtTheCell
   m_EditorClassIdentifier: 
-  dialogue: 'You found yourself back at the cell you just woke up in.
+  dialogue: 'You found yourself back at the cell you just woke up in. Home sweet
+    home.
 
 
-    Right
-    in front of you, lays a cell door partially rusted.
+    Right in front of you, you see an old bed with a straw mat on it
+    and right beside it, a small metal bucket filled with a stenchful liquid.
 
-    To your left, you see
-    a few cockroaches eating a rotten piece of bread on a small plate.
+    To
+    your left, there are some dirty rags on the floor covered with what seems to
+    be dried blood.
 
-    Right
-    behind you, you see an old bed with a straw mat on it and right beside it, a
-    small metal bucket filled with a stenchful liquid.
+    Right behind you, lays a cell door partially rusted.
 
-    To your right, there
-    are some dirty rags on the floor covered with what seems to be dried blood.
+    To
+    your right, you see a few cockroaches eating a rotten piece of bread on a small
+    plate.
 
 
-    What
-    do you want to do?
+    What do you want to do?
 
 
     W. Move North
 
     A. Move Left
 
-    S. Move South
+    S.
+    Move South
 
-    D.
-    Move Right'
-  moveNorthDialogue: {fileID: 0}
-  moveLeftDialogue: {fileID: 0}
-  moveSouthDialogue: {fileID: 0}
-  moveRightDialogue: {fileID: 0}
+    D. Move Right'
+  moveNorthDialogue: {fileID: 11400000, guid: c1b5c14c489506246990e90067e54dd6, type: 2}
+  moveLeftDialogue: {fileID: 11400000, guid: ebed29cc14c7f764eba7f7d41021cc25, type: 2}
+  moveSouthDialogue: {fileID: 11400000, guid: 93287d7b4365da94f9c84f013efbbc2d, type: 2}
+  moveRightDialogue: {fileID: 11400000, guid: aac1425ff73c36846aabeed781349ced, type: 2}

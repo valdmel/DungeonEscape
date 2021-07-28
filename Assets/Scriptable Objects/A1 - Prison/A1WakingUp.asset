@@ -54,5 +54,5 @@ MonoBehaviour:
     D. Move Right'
   moveNorthDialogue: {fileID: 11400000, guid: 93287d7b4365da94f9c84f013efbbc2d, type: 2}
   moveLeftDialogue: {fileID: 11400000, guid: aac1425ff73c36846aabeed781349ced, type: 2}
-  moveSouthDialogue: {fileID: 0}
+  moveSouthDialogue: {fileID: 11400000, guid: c1b5c14c489506246990e90067e54dd6, type: 2}
   moveRightDialogue: {fileID: 11400000, guid: ebed29cc14c7f764eba7f7d41021cc25, type: 2}
