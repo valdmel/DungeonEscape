@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b3754f01044e4b849905b376d051bedd, type: 3}
-  m_Name: Right
+  m_Name: A1CellBed
   m_EditorClassIdentifier: 
   dialogue: Right
   moveNorthDialogue: {fileID: 0}

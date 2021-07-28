@@ -17,25 +17,25 @@ MonoBehaviour:
     around the floor. You get up and take a better around.
 
 
-    To your left, you
-    see a few cockroaches eating a rotten piece of bread on a small plate.
+    Right in front of
+    you, lays a cell door partially rusted.
 
-    To
-    your right, there are some dirty rags on the floor covered with what seems to
-    be dried blood.
+    To your left, you see a few cockroaches
+    eating a rotten piece of bread on a small plate.
 
-    Right behind you, you see an old bed with a straw mat on
-    it and right beside it, a small metal bucket filled with a stenchful liquid.
+    Right behind you, you see
+    an old bed with a straw mat on it and right beside it, a small metal bucket filled
+    with a stenchful liquid.
 
-    Right
-    in front of you there is a cell door with a small keyhole on it.
+    To your right, there are some dirty rags on the
+    floor covered with what seems to be dried blood.
 
 
-    A cold
-    breeze runs down your spine: you realize you''re in a dungeon, alone and completely
-    defenseless. Every step you take will influence your progress within the game,
-    so pay attention and think before making any move. If you die, you die. No continues.
-    Use WASD to move around.
+    A cold breeze runs down
+    your spine: you realize you''re in a dungeon, alone and completely defenseless.
+    Every step you take will influence your progress within the game, so pay attention
+    and think before making any move. If you die, you die. No continues. Use WASD
+    to move around.
 
 
     Good luck!
@@ -44,8 +44,8 @@ MonoBehaviour:
     What do you want to do?
 
 
-    W.
-    Move North
+    W. Move
+    North
 
     A. Move Left
 
@@ -53,6 +53,6 @@ MonoBehaviour:
 
     D. Move Right'
   moveNorthDialogue: {fileID: 11400000, guid: 93287d7b4365da94f9c84f013efbbc2d, type: 2}
-  moveLeftDialogue: {fileID: 11400000, guid: ebed29cc14c7f764eba7f7d41021cc25, type: 2}
-  moveSouthDialogue: {fileID: 11400000, guid: b91e13432369d194a950741ee78ab396, type: 2}
-  moveRightDialogue: {fileID: 11400000, guid: aac1425ff73c36846aabeed781349ced, type: 2}
+  moveLeftDialogue: {fileID: 11400000, guid: aac1425ff73c36846aabeed781349ced, type: 2}
+  moveSouthDialogue: {fileID: 0}
+  moveRightDialogue: {fileID: 11400000, guid: ebed29cc14c7f764eba7f7d41021cc25, type: 2}
