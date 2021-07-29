@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3754f01044e4b849905b376d051bedd, type: 3}
+  m_Name: A1LeftCellsSecondBlock
+  m_EditorClassIdentifier: 
+  dialogue: 'You found yourself in another octogonal small room, just like the previous
+    one. Sounds of burning torches can be heard as they light the place.
+
+
+    Right
+    in front of you, a  badly damaged cell door. It won''t budge.
+
+    To your left,
+    an intact cell door that seems to be locked. You notice a skeleton inside the
+    room. Poor soul.
+
+    Right behind you, you see the same octogonal small room
+    you just came from.
+
+    To your right, another rusty cell door. Seems locked.
+
+
+    What
+    do you want to do?
+
+
+    W. Can''t move forward
+
+    A. Can''t move forward
+
+    S.
+    Move South
+
+    D. Can''t move forward'
+  moveNorthDialogue: {fileID: 11400000}
+  moveLeftDialogue: {fileID: 11400000}
+  moveSouthDialogue: {fileID: 11400000, guid: a6819a05874617242b5d44de5971e963, type: 2}
+  moveRightDialogue: {fileID: 11400000}

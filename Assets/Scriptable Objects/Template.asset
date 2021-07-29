@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3754f01044e4b849905b376d051bedd, type: 3}
+  m_Name: Template
+  m_EditorClassIdentifier: 
+  dialogue: 'You found yourself xxxxx
+
+
+    Right in front of you, xxxxx
+
+    To
+    your left, xxxxx
+
+    Right behind you, xxxxx
+
+    To your right, xxxxx
+
+
+    What
+    do you want to do?
+
+
+    W. Move North
+
+    A. Move Left
+
+    S. Move South
+
+    D.
+    Move Right'
+  moveNorthDialogue: {fileID: 0}
+  moveLeftDialogue: {fileID: 0}
+  moveSouthDialogue: {fileID: 11400000, guid: ef4e4c976ca215c46b58756ee529f441, type: 2}
+  moveRightDialogue: {fileID: 0}

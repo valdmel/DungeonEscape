@@ -22,28 +22,28 @@ MonoBehaviour:
     Right in front of
     you, you see the old bed you were just looking at.
 
-    To your right, you see
-    a few cockroaches eating a rotten piece of bread on a small plate.
+    To your left, there are
+    some dirty rags on the floor covered with what seems to be dried blood.
 
     Right
     behind you, lays a cell door partially rusted.
 
-    To your left, there are some
-    dirty rags on the floor covered with what seems to be dried blood.
+    To your right, you see a
+    few cockroaches eating a rotten piece of bread on a small plate.
 
 
-    What
-    do you want to do?
+    What do
+    you want to do?
 
 
     W. Can''t move forward
 
     A. Move Left
 
-    S. Move
-    South
+    S. Move South
 
-    D. Move Right'
+    D.
+    Move Right'
   moveNorthDialogue: {fileID: 11400000}
   moveLeftDialogue: {fileID: 11400000, guid: ebed29cc14c7f764eba7f7d41021cc25, type: 2}
   moveSouthDialogue: {fileID: 11400000, guid: 93287d7b4365da94f9c84f013efbbc2d, type: 2}

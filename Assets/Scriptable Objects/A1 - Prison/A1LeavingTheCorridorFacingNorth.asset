@@ -10,22 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b3754f01044e4b849905b376d051bedd, type: 3}
-  m_Name: A1LeavingTheCell
+  m_Name: A1LeavingTheCorridorFacingNorth
   m_EditorClassIdentifier: 
   dialogue: 'You found yourself in an octogonal small room. Sounds of burning torches
     can be heard as they light the place.
 
 
-    Right in front of you, an old wooden
-    door.
-
-    To your left, the torches light a corridor leading to the other cells.
-
-    Right
-    behind you, you see the old metal door from the cell you just woke up in.
+    Right in front of you, a stairs.
 
     To
-    your right, the torches light a corridor leading to the other cells.
+    your left, xxxxx
+
+    Right behind you, xxxx
+
+    To your right, xxxx
 
 
     What
@@ -34,13 +32,13 @@ MonoBehaviour:
 
     W. Move North
 
-    A. Move Left
+    A. Can''t move forward
 
-    S. Move South
+    S. Move
+    South
 
-    D.
-    Move Right'
+    D. Move Right'
   moveNorthDialogue: {fileID: 0}
   moveLeftDialogue: {fileID: 0}
-  moveSouthDialogue: {fileID: 11400000, guid: f4c41cc40f88ed245af1534c0f0fe840, type: 2}
+  moveSouthDialogue: {fileID: 11400000, guid: ef4e4c976ca215c46b58756ee529f441, type: 2}
   moveRightDialogue: {fileID: 0}
