@@ -16,26 +16,27 @@ MonoBehaviour:
     can be heard as they light the place.
 
 
-    Right in front of you, a stairs.
+    Right in front of you, there is a
+    stairs leading upwards.
 
-    To
-    your left, xxxxx
+    To your left, an old locked wooden door.
 
-    Right behind you, xxxx
+    Right
+    behind you, an old wooden door leading back to the corridor.
 
-    To your right, xxxx
+    To your right,
+    a partially opened wooden door.
 
 
-    What
-    do you want to do?
+    What do you want to do?
 
 
     W. Move North
 
-    A. Can''t move forward
+    A.
+    Can''t move to the left
 
-    S. Move
-    South
+    S. Move South
 
     D. Move Right'
   moveNorthDialogue: {fileID: 0}

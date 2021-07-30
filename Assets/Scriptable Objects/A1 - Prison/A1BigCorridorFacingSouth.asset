@@ -35,12 +35,12 @@ MonoBehaviour:
 
     W. Move North
 
-    A. Can''t move forward
+    A. Can''t move to the left
 
-    S. Move
-    South
+    S.
+    Move South
 
-    D. Can''t move forward'
+    D. Can''t move to the right'
   moveNorthDialogue: {fileID: 11400000, guid: 824b4e5b233e3aa4cb196506536a787a, type: 2}
   moveLeftDialogue: {fileID: 11400000}
   moveSouthDialogue: {fileID: 11400000, guid: 79c971329a43e994ca393e8772223488, type: 2}
