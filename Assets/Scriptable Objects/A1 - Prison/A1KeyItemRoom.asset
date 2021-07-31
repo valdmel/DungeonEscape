@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3754f01044e4b849905b376d051bedd, type: 3}
+  m_Name: A1KeyItemRoom
+  m_EditorClassIdentifier: 
+  dialogue: 'You found yourself in a medium-sized square room. It looks like you''re
+    inside of a storage, as you notice a few bags, wooden crates and different items
+    placed on shelves.
+
+
+    Right in front of you, there are some wooden shelves
+    and wooden crates.
+
+    To your left, there are some spilled liquids on the floor
+    as well as some bags.
+
+    Right behind you, an old wooden door leading back
+    to the narrow corridor.
+
+    To your right, more wooden crates and shelves. You
+    notice something shinny on the ground that looks like a key.
+
+
+    What do you
+    want to do?
+
+
+    W. Can''t move forward
+
+    A. Can''t move left
+
+    S. Move
+    South
+
+    D. Can''t move right'
+  moveNorthDialogue: {fileID: 11400000}
+  moveLeftDialogue: {fileID: 11400000}
+  moveSouthDialogue: {fileID: 11400000, guid: b55ba3c0dc323e34e818498cb9598327, type: 2}
+  moveRightDialogue: {fileID: 0}

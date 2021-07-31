@@ -10,36 +10,36 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b3754f01044e4b849905b376d051bedd, type: 3}
-  m_Name: A1LeavingTheCorridorFacingNorth
+  m_Name: A1LeavingTheCorridorFacingLeft
   m_EditorClassIdentifier: 
   dialogue: 'You found yourself in an octogonal small room. Sounds of burning torches
     can be heard as they light the place.
 
 
-    Right in front of you, there is a
-    stairs leading upwards.
+    Right in front of you, an old locked
+    wooden door.
 
-    To your left, an old locked wooden door.
+    To your left, an old wooden door leading back to the long corridor.
 
     Right
-    behind you, an old wooden door leading back to the long corridor.
+    behind you, an old wooden door leading back to the small and narrow corridor.
 
-    To your
-    right, an old wooden door.
+    To
+    your right, there is a stairs leading upwards.
 
 
     What do you want to do?
 
 
-    W. Move North
+    W.
+    Can''t move forward
 
-    A.
-    Can''t move to the left
+    A. Move Left
 
     S. Move South
 
     D. Move Right'
-  moveNorthDialogue: {fileID: 0}
-  moveLeftDialogue: {fileID: 11400000}
-  moveSouthDialogue: {fileID: 11400000, guid: ef4e4c976ca215c46b58756ee529f441, type: 2}
-  moveRightDialogue: {fileID: 11400000, guid: 91c8120d46dafc148ac0dac5faeaca0c, type: 2}
+  moveNorthDialogue: {fileID: 11400000}
+  moveLeftDialogue: {fileID: 11400000, guid: ef4e4c976ca215c46b58756ee529f441, type: 2}
+  moveSouthDialogue: {fileID: 0}
+  moveRightDialogue: {fileID: 0}

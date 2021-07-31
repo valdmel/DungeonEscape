@@ -10,37 +10,38 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b3754f01044e4b849905b376d051bedd, type: 3}
-  m_Name: A1TopRightCorridorFacingRight
+  m_Name: A1TopRightCorridorFacingLeft
   m_EditorClassIdentifier: 
   dialogue: 'You found yourself in a small and narrow corridor. Burning torches hanging
     from the stone columns light the path and you can see the everything in the corridor.
 
 
     Right
-    in front of you, an old wooden door at the end of the corridor.
+    in front of you, an old wooden door leading back to the octogonal small room
+    you just came from.
 
-    To your
-    left, burning torches hanging from the wall.
+    To your left, burning torches hanging from the wall.
 
-    Right behind you, an old wooden
-    door leading back to the octogonal small room you just came from.
+    Right
+    behind you, an old wooden door leading back to the storage-like room.
 
-    To your
-    right, burning torches hanging from the wall.
-
-
-    What do you want to do?
+    To
+    your right, burning torches hanging from the wall.
 
 
-    W.
-    Move North
+    What do you want to
+    do?
+
+
+    W. Move North
 
     A. Can''t move left
 
     S. Move South
 
-    D. Can''t move right'
-  moveNorthDialogue: {fileID: 11400000, guid: 3f861cc400cb6684884383ee8fa60cf6, type: 2}
+    D. Can''t
+    move right'
+  moveNorthDialogue: {fileID: 0}
   moveLeftDialogue: {fileID: 11400000}
-  moveSouthDialogue: {fileID: 11400000, guid: c3c73801f250e314891a5167908fe5b6, type: 2}
+  moveSouthDialogue: {fileID: 11400000, guid: 3f861cc400cb6684884383ee8fa60cf6, type: 2}
   moveRightDialogue: {fileID: 11400000}
