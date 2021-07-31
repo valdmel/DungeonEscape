@@ -17,7 +17,7 @@ public class TemporarySoundEffect : MonoBehaviour
 
     private IEnumerator StopPlayingSound()
     {
-        yield return new WaitUntil(() => !audioSource.isPlaying);
+        yield return new WaitForSeconds(audioSource.clip.length);
 
         Destroy(gameObject);
     }
