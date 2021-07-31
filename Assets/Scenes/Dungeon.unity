@@ -613,11 +613,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: WaterDrippingAmbienceSound
       objectReference: {fileID: 0}
-    - target: {fileID: 2617789668917089519, guid: 76013073b8ffec14ca0e443ee18946bb,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76013073b8ffec14ca0e443ee18946bb, type: 3}
 --- !u!1 &1251389183
@@ -808,11 +803,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RatsSqueakingAmbienceSound
-      objectReference: {fileID: 0}
-    - target: {fileID: 2929837098497794035, guid: c73b1317ca0393a4fbc0518fe04d2dc5,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2929837098497794045, guid: c73b1317ca0393a4fbc0518fe04d2dc5,
         type: 3}
