@@ -5,6 +5,7 @@ public class DialogueLine : ScriptableObject
 {
     #region VARIABLES
     #region SERIALIZABLE
+    [Header("Dialogue Properties")]
     [SerializeField, TextArea(30, 14)] private string dialogue;
     [Header("Actions Properties")]
     [SerializeField] DialogueLine moveNorthDialogue;
