@@ -11,6 +11,7 @@ public class GameEvent : ScriptableObject
     #endregion
     #endregion
 
+    #region CLASS METHODS
     public void RunEvent()
     {
         DestroyAmbienceSounds();
@@ -33,4 +34,5 @@ public class GameEvent : ScriptableObject
             Destroy(GameObject.Find(ambienceSoundObject.name));
         }
     }
+    #endregion
 }

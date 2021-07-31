@@ -15,10 +15,12 @@ public class TemporarySoundEffect : MonoBehaviour
     void Start() => StartCoroutine(StopPlayingSound());
     #endregion
 
+    #region CLASS METHODS
     private IEnumerator StopPlayingSound()
     {
         yield return new WaitForSeconds(audioSource.clip.length);
 
         Destroy(gameObject);
     }
+    #endregion
 }
