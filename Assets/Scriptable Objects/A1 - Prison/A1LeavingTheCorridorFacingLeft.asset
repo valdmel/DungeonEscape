@@ -41,5 +41,17 @@ MonoBehaviour:
     D. Move Right'
   moveNorthDialogue: {fileID: 11400000}
   moveLeftDialogue: {fileID: 11400000, guid: ef4e4c976ca215c46b58756ee529f441, type: 2}
-  moveSouthDialogue: {fileID: 0}
+  moveSouthDialogue: {fileID: 11400000, guid: 91c8120d46dafc148ac0dac5faeaca0c, type: 2}
   moveRightDialogue: {fileID: 0}
+  onMoveNorth:
+    m_PersistentCalls:
+      m_Calls: []
+  onMoveLeft:
+    m_PersistentCalls:
+      m_Calls: []
+  onMoveSouth:
+    m_PersistentCalls:
+      m_Calls: []
+  onMoveRight:
+    m_PersistentCalls:
+      m_Calls: []

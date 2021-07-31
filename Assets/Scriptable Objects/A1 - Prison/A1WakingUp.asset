@@ -56,3 +56,29 @@ MonoBehaviour:
   moveLeftDialogue: {fileID: 11400000, guid: aac1425ff73c36846aabeed781349ced, type: 2}
   moveSouthDialogue: {fileID: 11400000, guid: c1b5c14c489506246990e90067e54dd6, type: 2}
   moveRightDialogue: {fileID: 11400000, guid: ebed29cc14c7f764eba7f7d41021cc25, type: 2}
+  onMoveNorth:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 440979641136247311, guid: 734f5c89827a4a94185717a856ea2840,
+          type: 3}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: PlayOneShot
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: a0493831bf62bae41a403feadff37b0f,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onMoveLeft:
+    m_PersistentCalls:
+      m_Calls: []
+  onMoveSouth:
+    m_PersistentCalls:
+      m_Calls: []
+  onMoveRight:
+    m_PersistentCalls:
+      m_Calls: []

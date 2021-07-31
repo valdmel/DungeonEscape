@@ -1,15 +1,21 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     #region VARIABLES
+    public static Action<string> OnDialogueChange;
+
     #region SERIALIZABLE
+    [Header("Dialogue Properties")]
     [SerializeField] private Text dialogueHUD;
     [SerializeField] private DialogueLine startingDialogueLine;
     #endregion
 
+    private readonly List<string> items = new List<string>();
     private DialogueLine currentDialogueLine;
     #endregion
 
@@ -17,7 +23,8 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         currentDialogueLine = startingDialogueLine;
-        dialogueHUD.text = currentDialogueLine.Dialogue;
+
+        OnDialogueChange?.Invoke(currentDialogueLine.Dialogue);
     }
     #endregion
 
@@ -27,7 +34,8 @@ public class GameManager : MonoBehaviour
         if (inputContext.performed)
         {
             currentDialogueLine = currentDialogueLine.MoveNorthDialogue;
-            DisplayDialogueLine();
+
+            OnDialogueChange?.Invoke(currentDialogueLine.Dialogue);
         }
     }
 
@@ -36,7 +44,8 @@ public class GameManager : MonoBehaviour
         if (inputContext.performed)
         {
             currentDialogueLine = currentDialogueLine.MoveLeftDialogue;
-            DisplayDialogueLine();
+
+            OnDialogueChange?.Invoke(currentDialogueLine.Dialogue);
         }
     }
 
@@ -44,8 +53,11 @@ public class GameManager : MonoBehaviour
     {
         if (inputContext.performed)
         {
+            currentDialogueLine.OnMoveNorth?.Invoke();
+
             currentDialogueLine = currentDialogueLine.MoveSouthDialogue;
-            DisplayDialogueLine();
+
+            OnDialogueChange?.Invoke(currentDialogueLine.Dialogue);
         }
     }
 
@@ -54,10 +66,9 @@ public class GameManager : MonoBehaviour
         if (inputContext.performed)
         {
             currentDialogueLine = currentDialogueLine.MoveRightDialogue;
-            DisplayDialogueLine();
+
+            OnDialogueChange?.Invoke(currentDialogueLine.Dialogue);
         }
     }
-
-    private void DisplayDialogueLine() => dialogueHUD.text = currentDialogueLine.Dialogue;
     #endregion
 }

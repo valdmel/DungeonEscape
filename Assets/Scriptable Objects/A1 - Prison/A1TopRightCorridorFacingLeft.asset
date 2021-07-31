@@ -41,7 +41,19 @@ MonoBehaviour:
 
     D. Can''t
     move right'
-  moveNorthDialogue: {fileID: 0}
+  moveNorthDialogue: {fileID: 11400000, guid: c3c73801f250e314891a5167908fe5b6, type: 2}
   moveLeftDialogue: {fileID: 11400000}
   moveSouthDialogue: {fileID: 11400000, guid: 3f861cc400cb6684884383ee8fa60cf6, type: 2}
   moveRightDialogue: {fileID: 11400000}
+  onMoveNorth:
+    m_PersistentCalls:
+      m_Calls: []
+  onMoveLeft:
+    m_PersistentCalls:
+      m_Calls: []
+  onMoveSouth:
+    m_PersistentCalls:
+      m_Calls: []
+  onMoveRight:
+    m_PersistentCalls:
+      m_Calls: []
