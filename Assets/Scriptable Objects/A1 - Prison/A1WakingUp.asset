@@ -59,15 +59,13 @@ MonoBehaviour:
   onMoveNorth:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 440979641136247311, guid: 734f5c89827a4a94185717a856ea2840,
-          type: 3}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: PlayOneShot
-        m_Mode: 2
+      - m_Target: {fileID: 11400000, guid: fdab6be23f713fc4cb6b6ea85defb7c7, type: 2}
+        m_TargetAssemblyTypeName: GameEvent, Assembly-CSharp
+        m_MethodName: RunEvent
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: a0493831bf62bae41a403feadff37b0f,
-            type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

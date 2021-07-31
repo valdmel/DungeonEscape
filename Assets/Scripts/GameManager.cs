@@ -11,7 +11,6 @@ public class GameManager : MonoBehaviour
 
     #region SERIALIZABLE
     [Header("Dialogue Properties")]
-    [SerializeField] private Text dialogueHUD;
     [SerializeField] private DialogueLine startingDialogueLine;
     #endregion
 
@@ -33,6 +32,8 @@ public class GameManager : MonoBehaviour
     {
         if (inputContext.performed)
         {
+            currentDialogueLine.OnMoveNorth?.Invoke();
+
             currentDialogueLine = currentDialogueLine.MoveNorthDialogue;
 
             OnDialogueChange?.Invoke(currentDialogueLine.Dialogue);
@@ -43,6 +44,8 @@ public class GameManager : MonoBehaviour
     {
         if (inputContext.performed)
         {
+            currentDialogueLine.OnMoveLeft?.Invoke();
+
             currentDialogueLine = currentDialogueLine.MoveLeftDialogue;
 
             OnDialogueChange?.Invoke(currentDialogueLine.Dialogue);
@@ -53,7 +56,7 @@ public class GameManager : MonoBehaviour
     {
         if (inputContext.performed)
         {
-            currentDialogueLine.OnMoveNorth?.Invoke();
+            currentDialogueLine.OnMoveSouth?.Invoke();
 
             currentDialogueLine = currentDialogueLine.MoveSouthDialogue;
 
@@ -65,6 +68,8 @@ public class GameManager : MonoBehaviour
     {
         if (inputContext.performed)
         {
+            currentDialogueLine.OnMoveRight?.Invoke();
+
             currentDialogueLine = currentDialogueLine.MoveRightDialogue;
 
             OnDialogueChange?.Invoke(currentDialogueLine.Dialogue);
