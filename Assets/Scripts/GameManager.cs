@@ -75,5 +75,7 @@ public class GameManager : MonoBehaviour
             OnDialogueChange?.Invoke(currentDialogueLine.Dialogue);
         }
     }
+
+    public void AddItemToInventory(string itemName) => items.Add(itemName);
     #endregion
 }

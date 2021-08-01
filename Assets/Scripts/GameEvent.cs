@@ -1,6 +1,7 @@
 using UnityEngine;
+using UnityEngine.Events;
 
-[CreateAssetMenu(menuName = "GameEvent")]
+[CreateAssetMenu(menuName = "Game Event")]
 public class GameEvent : ScriptableObject
 {
     #region VARIABLES
@@ -8,6 +9,7 @@ public class GameEvent : ScriptableObject
     [Header("Event Properties")]
     [SerializeField] private GameObject[] ambienceSoundsToCreate;
     [SerializeField] private GameObject[] ambienceSoundsToDestroy;
+    [SerializeField] private UnityEvent onEventRun; 
     #endregion
     #endregion
 
@@ -16,6 +18,7 @@ public class GameEvent : ScriptableObject
     {
         DestroyAmbienceSounds();
         CreateAmbienceSounds();
+        ExecuteEventActions();
     }
 
     private void CreateAmbienceSounds()
@@ -34,5 +37,7 @@ public class GameEvent : ScriptableObject
             Destroy(GameObject.Find(ambienceSoundObject.name));
         }
     }
+
+    private void ExecuteEventActions() => onEventRun?.Invoke();
     #endregion
 }

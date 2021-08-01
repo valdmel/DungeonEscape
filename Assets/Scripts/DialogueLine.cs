@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
 
-[CreateAssetMenu(menuName = "DialogueLine")]
+[CreateAssetMenu(menuName = "Dialogue Line")]
 public class DialogueLine : ScriptableObject
 {
     #region VARIABLES
